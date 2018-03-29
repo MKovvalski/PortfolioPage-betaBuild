@@ -1,0 +1,52 @@
+/*about styling*/
+
+.about-wrapper {
+    background-color: white;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-about {
+    height: 530px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+.main-about:after {
+     right: 47.4%;
+     top: 530px;
+     content: "";
+     position: absolute;
+     width: 0;
+     height: 0;
+     border-left: 30px solid transparent;
+     border-right: 30px solid transparent;
+     border-top: 30px solid white;
+
+ }
+
+.about {
+    height: 100%;
+    width: 50%;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    text-shadow: 1px 1px #BABABA;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    color: #808080;
+}
+
+.picture {
+    background-color: grey;
+    height: 100%;
+    width: 50%;
+}

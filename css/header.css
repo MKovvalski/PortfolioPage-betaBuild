@@ -1,0 +1,74 @@
+/*header styling*/
+
+.header-wrapper {
+    background-color: #47D3A0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-header {
+    height: 150px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.main-header:after {
+    right: 47.3%;
+    top: 150px;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #47D3A0;
+    z-index: 1;
+
+}
+
+.symbol-and-title {
+    display: flex;
+}
+
+.main-nav {
+    width: 30%;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.main-nav ul li a {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px #BABABA;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.title h1 {
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 1px 1px #BABABA;
+}
+
+.title h2 {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    color: #EFEFEF;
+    text-shadow: 1px 1px #BABABA;
+}
