@@ -37,12 +37,22 @@
 
 .subtitle {
     text-transform: uppercase;
-    text-shadow: 1px 1px #BABABA;
+    text-shadow: 0.7px 0 #cccccc;
+    letter-spacing: 1px;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 900;
     text-align: center;
-    color: #808080;
+    color: #595959;
+}
+
+.subtitle:before {
+    position: absolute;
+    top: 35px;
+    content: "";
+    height: 4px;
+    width: 110px;
+    background-color: #FC4646;
 }
 
 .picture {

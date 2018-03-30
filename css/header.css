@@ -1,7 +1,7 @@
 /*header styling*/
 
 .header-wrapper {
-    background-color: #47D3A0;
+    background-color: #FFDB3D;
     width: 90%;
     display: flex;
     justify-content: center;
@@ -25,7 +25,7 @@
     height: 0;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
-    border-top: 30px solid #47D3A0;
+    border-top: 30px solid #FFDB3D;
     z-index: 1;
 
 }
@@ -34,8 +34,18 @@
     display: flex;
 }
 
+.symbol {
+    width: 40px;
+    height: 40px;
+}
+
+.small-logo {
+    font-weight: 900;
+    font-size: 23px;
+}
+
 .main-nav {
-    width: 30%;
+    width: 35%;
 }
 
 .main-nav ul {
@@ -44,13 +54,25 @@
     text-transform: uppercase;
 }
 
+.main-nav ul li {
+    text-align: center;
+    width: 25%;
+}
+
+.main-nav div {
+    width: 0%;
+    height: 3px;
+    background-color: #FC4646;
+    animation: elongate 0.5s linear 1 forwards;
+}
+
 .main-nav ul li a {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     letter-spacing: 1px;
     color: white;
     text-decoration: none;
-    text-shadow: 1px 1px #BABABA;
+    text-shadow: 0.7px 0.7px #BABABA;
 }
 
 .title {
@@ -58,17 +80,23 @@
 }
 
 .title h1 {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 900;
     letter-spacing: 2px;
-    color: white;
-    text-shadow: 1px 1px #BABABA;
+    color: #595959;
+    text-shadow: 0.7px 0.7px white;
 }
 
 .title h2 {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
     letter-spacing: 0.8px;
-    color: #EFEFEF;
-    text-shadow: 1px 1px #BABABA;
+    color: white;
+    text-shadow: 1px 0 #BABABA;
+}
+
+@keyframes elongate {
+  100% {
+      width: 100%;
+  }
 }
