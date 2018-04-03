@@ -1,0 +1,11 @@
+/*styling skillset*/
+
+.skills-wrapper {
+    width: 90%;
+    display: flex;
+}
+
+.main-skills {
+    height: 530px;
+    width: 100%;
+}
