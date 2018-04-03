@@ -65,7 +65,7 @@
 .main-nav div {
     width: 0;
     height: 3px;
-    background-color: #53DBA9;
+    background-color: #FFDB3D;
     transition: all 0.5s ease-out;
 }
 
@@ -96,10 +96,4 @@
     letter-spacing: 0.8px;
     color: white;
     text-shadow: 1px 0 #BABABA;
-}
-
-@keyframes elongate {
-  100% {
-      width: 100%;
-  }
 }

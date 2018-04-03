@@ -1,7 +1,7 @@
 /*about styling*/
 
 .about-wrapper {
-    background-color: white;
+    background-color: #53DBA9;
     width: 90%;
     display: flex;
     justify-content: center;
@@ -12,26 +12,39 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     position: relative;
 }
 
-
 .main-about:after {
-     right: 47.4%;
-     top: 530px;
-     content: "";
-     position: absolute;
-     width: 0;
-     height: 0;
-     border-left: 30px solid transparent;
-     border-right: 30px solid transparent;
-     border-top: 30px solid white;
+    right: 47.4%;
+    top: 530px;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #53DBA9;
 }
 
+
 .about {
-    height: 100%;
-    width: 50%;
+    background-color: white;
+    height: 99%;
+    width: 100%;
+}
+
+.about:after {
+    right: 47.65%;
+    top: 525px;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 27px solid transparent;
+    border-right: 27px solid transparent;
+    border-top: 27px solid white;
+    z-index: 2;
 }
 
 .subtitle {
