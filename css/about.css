@@ -52,14 +52,32 @@
 }
 
 .short-description {
-    background-color: lightgoldenrodyellow;
     width: 40%;
 }
 
 .short-description h2 {
+    text-transform: uppercase;
     text-align: center;
     margin-bottom: 12px;
-    text-shadow: 1px 0 #BABABA;
+    font-size: 21px;
+    color: #333333;
+    text-shadow: 0.6px 0 #BABABA, 0.7px 0 black;
+    position: relative;
+}
+
+.underline {
+    width: 130px;
+    height: 4px;
+    top: 177px;
+    left: 19.41%;
+    background-color: #FFDB3D;
+    position: absolute;
+}
+
+.short-description p {
+    font-size: 19px;
+    color:#595959;
+
 }
 
 .main-traits {

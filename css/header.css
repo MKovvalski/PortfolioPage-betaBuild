@@ -75,7 +75,7 @@
     letter-spacing: 1px;
     color: white;
     text-decoration: none;
-    text-shadow: 0.7px 0.7px #BABABA;
+    text-shadow: 0.6px 0 #BABABA, 0.7px 0 black;
 }
 
 .title {
@@ -87,7 +87,7 @@
     font-weight: 900;
     letter-spacing: 2px;
     color: #595959;
-    text-shadow: 0.7px 0.7px white;
+    text-shadow: 0.6px 0 white, 0.7px 0 black;
 }
 
 .title h2 {
@@ -95,5 +95,5 @@
     font-weight: 600;
     letter-spacing: 0.8px;
     color: white;
-    text-shadow: 1px 0 #BABABA;
+    text-shadow: 0.7px 0 #BABABA, 0.8px 0 black ;
 }
