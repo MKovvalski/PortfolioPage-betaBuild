@@ -32,6 +32,9 @@
     background-color: white;
     height: 99%;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+
 }
 
 .about:after {
@@ -45,6 +48,26 @@
     border-right: 27px solid transparent;
     border-top: 27px solid white;
     z-index: 2;
+}
+
+.short-description {
+    background-color: lightgoldenrodyellow;
+    width: 50%;
+    height: 100%;
+}
+
+.main-traits {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trait {
+    width: 85%;
+    height: 31%;
 }
 
 .subtitle {
