@@ -1,7 +1,7 @@
 /*about styling*/
 
 .about-wrapper {
-    background-color: #53DBA9;
+    background-color: #39CE98;
     width: 90%;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@
     height: 0;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
-    border-top: 30px solid #53DBA9;
+    border-top: 30px solid #39CE98;
 }
 
 
@@ -53,28 +53,34 @@
 
 .short-description {
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.short-description h2 {
+.article-title {
     text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 12px;
     font-size: 21px;
     color: #333333;
     text-shadow: 0.6px 0 #BABABA, 0.7px 0 black;
     position: relative;
 }
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #53DBA9;
+}
 
 .underline {
     width: 130px;
     height: 4px;
-    top: 177px;
-    left: 19.41%;
-    background-color: #FFDB3D;
-    position: absolute;
+    background-color: #FFD447;
 }
 
 .short-description p {
+    margin-top: 10px;
     font-size: 19px;
     color:#595959;
 

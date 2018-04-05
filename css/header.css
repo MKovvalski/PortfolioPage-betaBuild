@@ -1,7 +1,7 @@
 /*header styling*/
 
 .header-wrapper {
-    background-color: #53DBA9;
+    background-color: #39CE98;
     width: 90%;
     display: flex;
     justify-content: center;
@@ -25,7 +25,7 @@
     height: 0;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
-    border-top: 30px solid #53DBA9;
+    border-top: 30px solid #39CE98;
     z-index: 1;
 
 }
