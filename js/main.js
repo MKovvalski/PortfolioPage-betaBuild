@@ -15,21 +15,23 @@ sizing(arrayOfLinks, "mouseout", "0%");
 
 const gmail = document.querySelector(".gmail");
 const mailExpander = document.querySelector(".mail-expander");
+const mailText = document.querySelector(".mail");
 
 gmail.addEventListener("click", function () {
     switch (this.id) {
-        case "none":
+        case "move-left":
+            this.id = "move-right";
+            mailExpander.style.display = "none";
+            mailExpander.id = "expand";
+            mailText.id = "none";
+            break;
+        default:
             this.id = "move-left";
             mailExpander.style.display = "block";
             mailExpander.id = "expand";
-            console.log(mailExpander.id);
-            break;
-        case "move-left":
-            this.id = "move-right";
-            break;
-        case "move-right":
-            this.id = "move-left";
-            break;
+            setTimeout(function () {
+                mailText.id = "appear";
+            },700);
     }
 });
 

@@ -48,6 +48,9 @@
 }
 
 .mail-logo-doubler {
+    position: relative;
+    width: 45px;
+    height: 45px;
     background-image: url("../imgs/gmail-logo.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -55,7 +58,13 @@
 }
 
 .mail {
+    position: absolute;
+    top: 8.5px;
+    left: 47px;
     display: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
 }
 
 .linkedin {
@@ -84,15 +93,19 @@
     animation: expand 0.4s 0.3s linear 1 forwards;
 }
 
+#appear {
+    display: block;
+}
+
 @keyframes move-left {
    100% {
-       transform: translate(-160px, 0);
+       transform: translate(-200px, 0);
    }
 }
 
 @keyframes move-right {
     0% {
-        transform: translate(-160px, 0);
+        transform: translate(-200px, 0);
     }
     100% {
         transform: translate(0, 0);
@@ -104,6 +117,6 @@
         width: 45px;
     }
     100% {
-        width: 280px;
+        width: 325px;
     }
 }
