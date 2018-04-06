@@ -12,7 +12,7 @@
 
     <!-------- Header -------->
 
-        <article class = "header-wrapper">
+        <div class = "header-wrapper">
             <header class = "main-header">
                 <div class = "symbol-and-title">
                     <div class = "title">
@@ -49,12 +49,12 @@
                     </ul>
                 </nav>
             </header>
-        </article>
+        </div>
 
     <!------- About Me ------->
 
-        <article class = "about-wrapper">
-            <div class = "main-about">
+        <div class = "about-wrapper">
+            <article class = "main-about">
                 <div class = "about">
                    <div class = "short-description">
                        <h2 class = "article-title">about me</h2>
@@ -76,13 +76,13 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </article>
+            </article>
+        </div>
 
-    <!--------SkillSet ------->
+    <!------- Skills --------->
 
-        <article class = "skills-wrapper">
-            <div class = "main-skills">
+        <div class = "skills-wrapper">
+            <article class = "main-skills">
                 <div class = "inner-wrapper">
                     <h2 class = "article-title">Skills</h2>
                     <svg class = "underline"></svg>
@@ -98,17 +98,17 @@
                     <div class = "main-skill-text">
                         <p>Knowing that it would be hard to asses skills of someone who has no commercial experience, I work daily on my own projects, to make the assessment easier.</p>
                         <p>I prefer to write my projects in React Framework, which I supplement with Redux when necessary. All styling is done in Sass, while Webpack bundles everything together.</p>
-                        <p>When writing code I focus on keeping it clean and easy to maintain. Everyday I strive to better my writing as well as learn knew techniques and tricks. To learn more about my code visit my
-                            <a href= "http://github.com/MateuszKowalskiCL">github page</a></p>
+                        <p>When writing code I focus on keeping it clean and easy to maintain. Everyday I strive to better my writing as well as learn new techniques and tricks. To learn more about my code visit my
+                            <a class = "skill-github-link" target = "_blank" href= "http://github.com/MateuszKowalskiCL">github</a></p>
                     </div>
                 </div>
-            </div>
-        </article>
+            </article>
+        </div>
 
     <!------- Projects ------->
 
-        <article class = "projects-wrapper">
-            <div class = "main-projects">
+        <div class = "projects-wrapper">
+            <article class = "main-projects">
                 <div class = "project">
                     <h3>Pokemon Game</h3>
                     <a href="https://mateuszkowalskicl.github.io/PokemonGame-simplified/" target = "_blank">
@@ -133,8 +133,31 @@
                     <a class = "github-link" href="https://github.com/MateuszKowalskiCL/sitOnChairPrime" target = "_blank">View the <span>code</span></a>
                     <p>Developed through first half of Coders Lab Boot Camp. Build without frameworks or additional libraries</p>
                 </div>
-            </div>
-        </article>
+            </article>
+        </div>
+
+    <!------- Contact -------->
+
+        <div class = "footer-wrapper">
+            <footer class = "main-footer">
+                <div class = "inner-wrapper">
+                    <h4 class = "footer-title">© 2018 By Mateusz Kowalski. All rights reserved.</h4>
+                    <ul class = "contact-list">
+                        <li class = "contact-logo gmail">
+                            <div class = "mail-expander">
+                                <div class = "mail-logo-doubler">
+                                    <div class = "mail">matt.kowalski.public@gmail.com</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="http://www.linkedin.com/in/mateusz-kowalski-62b758113/"><svg class = "contact-logo linkedin">a</svg></a></li>
+                        <li><a href="http://github.com/MateuszKowalskiCL"><svg class = "contact-logo github"></svg></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+
+
 </div>
 </body>
 </html>

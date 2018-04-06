@@ -15,6 +15,7 @@
 }
 
 .inner-wrapper {
+    border: 2px solid red;
     width: 100%;
     height: 87%;
     display: flex;
@@ -61,7 +62,7 @@
 
 .html {
     background-image: url("../imgs/HTML_Logo-kopia.png");
-    background-size: 80% 80%;
+    background-size: 70% 77%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -75,14 +76,14 @@
 
 .js {
     background-image: url("../imgs/js-logo.png");
-    background-size: 65% 85%;
+    background-size: 50% 82%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .react {
     background-image: url("../imgs/react-log.png");
-    background-size: 70% 70%;
+    background-size: 71% 79%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -96,25 +97,16 @@
 
 .webpack {
     background-image: url("../imgs/webpack.png");
-    background-size: 75% 75%;
+    background-size: 72% 72%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .git {
     background-image: url("../imgs/git.png");
-    background-size: 75% 75%;
+    background-size: 65% 65%;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.separation-line {
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 0.5%;
-    height: 93%;
-    background-color: #FFDB3D;
-    /*border-radius: 20px;*/
 }
 
 .main-skill-text {
@@ -126,4 +118,11 @@
 .main-skill-text p {
     margin-top: 14px;
     color: #595959;
+}
+
+.skill-github-link {
+    color: #333333;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
 }

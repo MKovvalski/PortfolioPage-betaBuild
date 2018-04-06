@@ -1,0 +1,28 @@
+/*styling footer*/
+
+.footer-wrapper {
+    background-color: #595959;
+    width: 90%;
+}
+
+.main-footer {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-title {
+    color: #BABABA;
+}
+
+.contact-logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.mail-expander {
+    display: none;
+}
