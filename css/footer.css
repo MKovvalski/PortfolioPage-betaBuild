@@ -16,13 +16,94 @@
     color: #BABABA;
 }
 
+.contact-list {
+    margin-top: 6px;
+    width: 31.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .contact-logo {
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background-color: red;
+    background-color: white;
+}
+
+.gmail {
+    transition: all 0.3s ease-out;
+    background-image: url("../imgs/gmail-logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .mail-expander {
     display: none;
+    width: 0;
+    height: 100%;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.mail-logo-doubler {
+    background-image: url("../imgs/gmail-logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mail {
+    display: none;
+}
+
+.linkedin {
+    background-image: url("../imgs/linkedin-logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.github {
+    background-image: url("../imgs/github-logo-2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#move-left {
+    animation: move-left 0.3s linear 1 forwards;
+}
+
+#move-right {
+    animation: move-right 0.3s linear 1 forwards;
+}
+
+#expand {
+    animation: expand 0.4s 0.3s linear 1 forwards;
+}
+
+@keyframes move-left {
+   100% {
+       transform: translate(-160px, 0);
+   }
+}
+
+@keyframes move-right {
+    0% {
+        transform: translate(-160px, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes expand {
+    0% {
+        width: 45px;
+    }
+    100% {
+        width: 280px;
+    }
 }
