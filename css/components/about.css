@@ -136,3 +136,10 @@
     height: 100%;
     width: 50%;
 }
+
+
+@media only screen and (min-width: 300px) and (max-width: 375px) {
+    .short-description p {
+        font-size: 5px;
+    }
+}

@@ -60,49 +60,49 @@
 }
 
 .html {
-    background-image: url("../imgs/HTML_Logo.png");
+    background-image: url("../../imgs/HTML_Logo.png");
     background-size: 70% 77%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .sass {
-    background-image: url("../imgs/sass-log.png");
+    background-image: url("../../imgs/sass-log.png");
     background-size: 70% 70%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .js {
-    background-image: url("../imgs/js-logo.png");
+    background-image: url("../../imgs/js-logo.png");
     background-size: 50% 82%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .react {
-    background-image: url("../imgs/react-log.png");
+    background-image: url("../../imgs/react-log.png");
     background-size: 71% 79%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .redux {
-    background-image: url("../imgs/redux-logo.png");
+    background-image: url("../../imgs/redux-logo.png");
     background-size: 90% 90%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .webpack {
-    background-image: url("../imgs/webpack.png");
+    background-image: url("../../imgs/webpack.png");
     background-size: 72% 72%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .git {
-    background-image: url("../imgs/git.png");
+    background-image: url("../../imgs/git.png");
     background-size: 65% 65%;
     background-repeat: no-repeat;
     background-position: center;

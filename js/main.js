@@ -22,6 +22,8 @@ sizing(arrayOfLinks, "mouseout", "0%");
     const headerProjects = document.querySelector(".header-projects");
     const headerContacts = document.querySelector(".header-contact");
 
+    // disclaimer - I did not write the smoothscroll - got it form stackoverflow
+
     window.smoothScroll = function(target) {
         var scrollContainer = target;
         do { //find scroll container

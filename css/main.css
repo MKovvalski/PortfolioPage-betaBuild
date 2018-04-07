@@ -1,11 +1,18 @@
 @import "reset.css";
-@import "header.css";
-@import "about.css";
-@import "skills.css";
-@import "projects.css";
-@import "footer.css";
+@import "components/header.css";
+@import "components/about.css";
+@import "components/skills.css";
+@import "components/projects.css";
+@import "components/footer.css";
+@import "medias/media.css";
 
 /*global classes*/
+
+@media only screen and (min-width: 300px) and (max-width: 375px) {
+    .container {
+        overflow: auto;
+    }
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
