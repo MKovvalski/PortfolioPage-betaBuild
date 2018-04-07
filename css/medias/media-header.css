@@ -1,14 +1,43 @@
+.main-nav-mobile {
+    display: none;
+}
+
+.menu-hamburger {
+    width: 17%;
+    height: 85%;
+    display: none;
+}
+
+.menu-burger-line {
+    width: 50px;
+    height: 5px;
+    background-color: #595959;
+}
+
 @media only screen and (min-width: 300px) and (max-width: 375px) {
     .header-wrapper {
         width: 100%;
         height: 60px;
     }
     .main-header {
-        width: 100%;
+        width: 95%;
         height: 100%;
+    }
+    .main-header:after {
+        top: 60px;
+        right: 44%;
+    }
+    .menu-hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
     .main-nav {
         display: none;
+    }
+    .main-nav-mobile {
+     display: block;
     }
     .title h1 {
         font-size: 20px;
