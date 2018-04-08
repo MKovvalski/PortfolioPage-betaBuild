@@ -133,7 +133,7 @@
 @keyframes rotate-left {
     100% {
         width: 40px;
-        transform: translate(2px, -5px) rotate(90deg);
+        transform: translate(3.3px, -5px) rotate(90deg);
 
     }
 }
@@ -141,7 +141,7 @@
 @keyframes rotate-counter-left {
     0% {
         width: 40px;
-        transform: translate(2px, -5px) rotate(90deg);
+        transform: translate(3.3px, -5px) rotate(90deg);
 
     }
     100% {
@@ -153,14 +153,14 @@
 @keyframes rotate-right {
     100% {
         width: 40px;
-        transform: translate(-2px, 1px) rotate(90deg);
+        transform: translate(-3px, 1px) rotate(90deg);
     }
 }
 
 @keyframes rotate-counter-right {
     0% {
         width: 40px;
-        transform: translate(-2px, 1px) rotate(90deg);
+        transform: translate(-3px, 1px) rotate(90deg);
     }
     100% {
         width: 45px;
@@ -170,13 +170,13 @@
 
 @keyframes rotate-downward-right {
     100% {
-        transform: translate(5.5px, 0) rotate(40deg);
+        transform: translate(6.3px, 0) rotate(40deg);
     }
 }
 
 @keyframes rotate-counter-downward-right {
     0% {
-        transform: translate(5.5px, 0) rotate(40deg);
+        transform: translate(6.3px, 0) rotate(40deg);
     }
     100% {
         transform: translate(0, 0)rotate(0deg);
@@ -185,13 +185,13 @@
 
 @keyframes rotate-downward-left {
     100% {
-        transform: translate(-5.7px, 0.3px) rotate(-40deg);
+        transform: translate(-6.3px, 0.3px) rotate(-40deg);
     }
 }
 
 @keyframes rotate-counter-downward-left {
     0% {
-        transform: translate(-5.7px, 0.3px) rotate(-40deg);
+        transform: translate(-6.3px, 0.3px) rotate(-40deg);
     }
     100% {
         transform: translate(0, 0) rotate(0deg);
