@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const smallSecond = document.querySelector(".small-second");
     const third = document.querySelector(".third");
     const hamburgerMenu = document.querySelector(".menu-hamburger");
+    const mainNavMobile =document.querySelector(".main-nav-mobile");
 
     hamburgerMenu.addEventListener("click", function () {
         switch (third.id) {
@@ -15,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
               smallFirst.id = "rotate-counter-downward-right";
               smallSecond.id = "rotate-counter-downward-left";
               third.id = "rotate-counter-right";
+              mainNavMobile.id = "display-none";
               break;
             default:
                 first.id = "rotate-left";
@@ -22,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 smallFirst.id = "rotate-downward-right";
                 smallSecond.id = "rotate-downward-left";
                 third.id = "rotate-right";
+                mainNavMobile.id = "display-block"
         }
     })
 
