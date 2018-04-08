@@ -18,7 +18,7 @@
 .menu-burger-line-wrapper {
     display: flex;
     flex-direction: row;
-    
+
 }
 
 .menu-burger-small-line {
@@ -26,6 +26,7 @@
     height: 5px;
     background-color: #595959;
     transition: all 0.2s;
+    z-index: 1;
 }
 
 .first {
@@ -33,6 +34,14 @@
 }
 
 .third {
+    transform-origin: 100% 50%;
+}
+
+.small-first {
+    transform-origin: 0 50%;
+}
+
+.small-second {
     transform-origin: 100% 50%;
 }
 
@@ -90,15 +99,31 @@
     animation: rotate-counter-right 0.2s linear 1 forwards;
 }
 
+#rotate-downward-right {
+    animation: rotate-downward-right 0.2s linear 1 forwards;
+}
+
+#rotate-counter-downward-right {
+    animation: rotate-counter-downward-right 0.2s linear 1 forwards;
+}
+
+#rotate-downward-left {
+    animation: rotate-downward-left 0.2s linear 1 forwards;
+}
+
+#rotate-counter-downward-left {
+    animation: rotate-counter-downward-left 0.2s linear 1 forwards;
+}
+
 @keyframes move-up {
     100% {
-        transform: translate(0, -3px);
+        transform: translate(0, -20px);
     }
 }
 
 @keyframes move-down {
     0% {
-        transform: translate(0, -3px);
+        transform: translate(0, -20px);
     }
     100% {
         transform: translate(0, 0);
@@ -107,30 +132,66 @@
 
 @keyframes rotate-left {
     100% {
-        transform: translate(4px, -6px) rotate(90deg);
+        width: 40px;
+        transform: translate(2px, -5px) rotate(90deg);
 
     }
 }
 
 @keyframes rotate-counter-left {
     0% {
-        transform: translate(4px, -6px) rotate(90deg);
+        width: 40px;
+        transform: translate(2px, -5px) rotate(90deg);
 
     }
     100% {
+        width: 45px;
         transform: translate(0, 0) rotate(0deg);
     }
 }
 
 @keyframes rotate-right {
     100% {
-        transform: translate(-4px, 6px) rotate(90deg);
+        width: 40px;
+        transform: translate(-2px, 1px) rotate(90deg);
     }
 }
 
 @keyframes rotate-counter-right {
     0% {
-        transform: translate(-4px, 6px) rotate(90deg);
+        width: 40px;
+        transform: translate(-2px, 1px) rotate(90deg);
+    }
+    100% {
+        width: 45px;
+        transform: translate(0, 0) rotate(0deg);
+    }
+}
+
+@keyframes rotate-downward-right {
+    100% {
+        transform: translate(5.5px, 0) rotate(40deg);
+    }
+}
+
+@keyframes rotate-counter-downward-right {
+    0% {
+        transform: translate(5.5px, 0) rotate(40deg);
+    }
+    100% {
+        transform: translate(0, 0)rotate(0deg);
+    }
+}
+
+@keyframes rotate-downward-left {
+    100% {
+        transform: translate(-5.7px, 0.3px) rotate(-40deg);
+    }
+}
+
+@keyframes rotate-counter-downward-left {
+    0% {
+        transform: translate(-5.7px, 0.3px) rotate(-40deg);
     }
     100% {
         transform: translate(0, 0) rotate(0deg);
