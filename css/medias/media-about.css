@@ -4,5 +4,30 @@
     .about-wrapper {
         width: 100%;
     }
-    
+    .main-about {
+        height: 90%;
+        margin-bottom: 10px;
+    }
+    .main-about:after {
+        right: 43%;
+        top: 100.5%;
+    }
+    .about {
+        height: 98%;
+        flex-direction: column;
+    }
+    .about:after {
+        right: 44%;
+        top: 100%;
+    }
+    .short-description {
+        width: 95%;
+        margin-top: 30px;
+    }
+    .short-description p {
+        text-align: center;
+    }
+    .main-traits {
+        width: 95%;
+    }
 }
