@@ -7,13 +7,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     hamburgerMenu.addEventListener("click", function () {
         switch (third.id) {
-            case "move-up":
+            case "rotate-right":
               first.id = "rotate-counter-left";
-              third.id = "move-down";
+              third.id = "rotate-counter-right";
               break;
             default:
                 first.id = "rotate-left";
-                third.id = "move-up";
+                third.id = "rotate-right";
         }
     })
 

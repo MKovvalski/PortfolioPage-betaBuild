@@ -9,10 +9,31 @@
 }
 
 .menu-burger-line {
-    width: 50px;
+    width: 45px;
     height: 5px;
     background-color: #595959;
     transition: all 0.2s;
+}
+
+.menu-burger-line-wrapper {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.menu-burger-small-line {
+    width: 22.5px;
+    height: 5px;
+    background-color: #595959;
+    transition: all 0.2s;
+}
+
+.first {
+    transform-origin: 0 50%;
+}
+
+.third {
+    transform-origin: 100% 50%;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 375px) {
@@ -61,6 +82,14 @@
     animation: rotate-counter-left 0.2s linear 1 forwards;
 }
 
+#rotate-right {
+    animation: rotate-right 0.2s linear 1 forwards;
+}
+
+#rotate-counter-right {
+    animation: rotate-counter-right 0.2s linear 1 forwards;
+}
+
 @keyframes move-up {
     100% {
         transform: translate(0, -3px);
@@ -78,17 +107,32 @@
 
 @keyframes rotate-left {
     100% {
-        transform: translate(-13px, 12px) rotate(-55deg);
+        transform: translate(4px, -6px) rotate(90deg);
 
     }
 }
 
 @keyframes rotate-counter-left {
     0% {
-        transform: translate(-13px, 12px) rotate(-55deg);
+        transform: translate(4px, -6px) rotate(90deg);
 
     }
     100% {
-        transform: translate(0, 0) rotate(0);
+        transform: translate(0, 0) rotate(0deg);
+    }
+}
+
+@keyframes rotate-right {
+    100% {
+        transform: translate(-4px, 6px) rotate(90deg);
+    }
+}
+
+@keyframes rotate-counter-right {
+    0% {
+        transform: translate(-4px, 6px) rotate(90deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(0deg);
     }
 }
