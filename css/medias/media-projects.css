@@ -1,0 +1,39 @@
+/*styling mobile projects*/
+
+@media only screen and (min-width: 300px) and (max-width: 375px) {
+    .projects-wrapper {
+        width: 100%;
+    }
+    .main-projects {
+        height: 100%;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    .main-projects:after {
+        top: 100%;
+        right: 44%;
+    }
+    .project {
+        height: 100%;
+        width: 85%;
+        margin-bottom: 15px;
+    }
+    .project h3 {
+        font-size: 22px;
+    }
+    .link-wrapper {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .github-link {
+        margin: 0;
+        font-size: 19px;
+    }
+    .project p {
+        margin: 0 0 10px 0;
+        width: 100%;
+        text-align: center;
+        font-size: 19px;
+    }
+}
