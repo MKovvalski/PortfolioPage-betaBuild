@@ -37,7 +37,7 @@
 
 .main-skills:after {
     right: 47.4%;
-    top: 1210px;
+    top: 100%;
     content: "";
     position: absolute;
     width: 0;
