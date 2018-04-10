@@ -17,9 +17,8 @@
         flex-direction: column;
     }
     .about:after {
-        right: 42%;
+        right: 43%;
         top: 99.5%;
-        background-color: red;
     }
     .short-description {
         width: 95%;

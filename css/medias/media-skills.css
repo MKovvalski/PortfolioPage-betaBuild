@@ -9,7 +9,7 @@
     }
     .main-skills:after {
         top: 100%;
-        left: 42%;
+        right: 42%;
     }
     .inner-wrapper {
         margin-top: 40px;

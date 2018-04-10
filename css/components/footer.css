@@ -12,6 +12,14 @@
     align-items: flex-end;
 }
 
+.footer-inner-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer-title {
     color: #BABABA;
 }
