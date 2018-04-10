@@ -68,7 +68,10 @@
         display: none;
     }
     .title h1 {
-        font-size: 20px;
+        font-size: 19px;
+    }
+    .title h2 {
+        font-size: 15px;
     }
 }
 
