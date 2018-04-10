@@ -9,7 +9,7 @@
     }
     .main-skills:after {
         top: 100%;
-        right: 42%;
+        left: 42%;
     }
     .inner-wrapper {
         margin-top: 40px;
@@ -23,5 +23,9 @@
         width: 90%;
         font-size: 19px;
         margin-bottom: 15px;
+    }
+    .article-title {
+        text-align: center;
+        width: 100%;
     }
 }

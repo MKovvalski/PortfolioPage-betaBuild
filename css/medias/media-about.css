@@ -9,7 +9,7 @@
         margin-bottom: 5px;
     }
     .main-about:after {
-        right: 43%;
+        right: 42%;
         top: 100%;
     }
     .about {
@@ -17,7 +17,7 @@
         flex-direction: column;
     }
     .about:after {
-        right: 44%;
+        right: 43%;
         top: 99.5%;
     }
     .short-description {

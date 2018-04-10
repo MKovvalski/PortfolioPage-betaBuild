@@ -18,7 +18,7 @@
 
 .main-header:after {
     right: 47.3%;
-    top: 150px;
+    top: 100%;
     content: "";
     position: absolute;
     width: 0;
