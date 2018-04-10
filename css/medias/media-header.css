@@ -55,8 +55,8 @@
         height: 100%;
     }
     .main-header:after {
-        top: 60px;
-        right: 42%;
+        top: 98%;
+        right: 41%;
     }
     .menu-hamburger {
         display: flex;

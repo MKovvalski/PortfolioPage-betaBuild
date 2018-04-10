@@ -10,15 +10,15 @@
     }
     .main-about:after {
         right: 43%;
-        top: 100.5%;
+        top: 100%;
     }
     .about {
         height: 98%;
         flex-direction: column;
     }
     .about:after {
-        right: 43.7%;
-        top: 100%;
+        right: 43.9%;
+        top: 99.5%;
     }
     .short-description {
         width: 95%;
