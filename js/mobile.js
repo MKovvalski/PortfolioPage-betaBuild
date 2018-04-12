@@ -24,7 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 smallFirst.id = "rotate-downward-right";
                 smallSecond.id = "rotate-downward-left";
                 third.id = "rotate-right";
-                mainNavMobile.id = "display-block"
+                mainNavMobile.id = "display-block";
+
         }
     });
 
@@ -70,5 +71,5 @@ document.addEventListener("DOMContentLoaded", function () {
     mobileScrolling(mobileHeaderSkills, 'skills');
     mobileScrolling(mobileHeaderProjects, 'projects');
     mobileScrolling(mobileHeaderContacts, 'contact');
-    
+
 });

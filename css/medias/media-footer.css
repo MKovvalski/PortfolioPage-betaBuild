@@ -20,7 +20,7 @@
         width: 45px;
     }
     100% {
-        width: 360px;
+        width: 95vw;
     }
 }
 
@@ -40,13 +40,17 @@
         justify-content: center;
         align-items: center;
     }
+    .footer-title {
+        text-align: center;
+        font-size: 20px;
+    }
     .contact-list {
         width: 90%;
         margin-bottom: 25px;
     }
     .mail {
-        top: 7px;
-        font-size: 20px;
+        top: 7.5px;
+        font-size: 5vw;
     }
     #move-left {
         animation: move-left-mobile 0.2s linear 1 forwards;

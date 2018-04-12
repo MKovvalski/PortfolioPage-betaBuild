@@ -1,5 +1,6 @@
 .main-nav-mobile {
     display: none;
+    z-index: 2;
 }
 
 .menu-hamburger {
@@ -38,10 +39,12 @@
 }
 
 .small-first {
+    background-color: red;
     transform-origin: 0 50%;
 }
 
 .small-second {
+    background-color: #FFDB3D;
     transform-origin: 100% 50%;
 }
 
@@ -57,8 +60,10 @@
     .main-header:after {
         top: 98%;
         right: 42%;
+        z-index: 3;
     }
     .menu-hamburger {
+        background-color: white;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -133,7 +138,7 @@
 @keyframes rotate-left {
     100% {
         width: 40px;
-        transform: translate(3.3px, -5px) rotate(90deg);
+        transform: translate(3.5px, -5px) rotate(90deg);
 
     }
 }
@@ -141,7 +146,7 @@
 @keyframes rotate-counter-left {
     0% {
         width: 40px;
-        transform: translate(3.3px, -5px) rotate(90deg);
+        transform: translate(3px, -5px) rotate(90deg);
 
     }
     100% {
@@ -170,13 +175,13 @@
 
 @keyframes rotate-downward-right {
     100% {
-        transform: translate(6.3px, 0) rotate(40deg);
+        transform: translate(6px, 0.5px) rotate(40deg);
     }
 }
 
 @keyframes rotate-counter-downward-right {
     0% {
-        transform: translate(6.3px, 0) rotate(40deg);
+        transform: translate(6px, 1px) rotate(40deg);
     }
     100% {
         transform: translate(0, 0)rotate(0deg);
@@ -185,13 +190,13 @@
 
 @keyframes rotate-downward-left {
     100% {
-        transform: translate(-6.3px, 0.3px) rotate(-40deg);
+        transform: translate(-6px, 1px) rotate(-40deg);
     }
 }
 
 @keyframes rotate-counter-downward-left {
     0% {
-        transform: translate(-6.3px, 0.3px) rotate(-40deg);
+        transform: translate(-6px, 1px) rotate(-40deg);
     }
     100% {
         transform: translate(0, 0) rotate(0deg);
