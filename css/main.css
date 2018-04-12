@@ -1,14 +1,10 @@
 @import "reset.css";
-@import "components/header.css";
-@import "components/about.css";
-@import "components/skills.css";
-@import "components/projects.css";
-@import "components/footer.css";
+@import "components/components.css";
 @import "medias/media.css";
 
 /*global classes*/
 
-@media only screen and (min-width: 300px) and (max-width: 375px) {
+@media only screen and (min-width: 300px) and (max-width: 450px) {
     .container {
         overflow: auto;
     }
