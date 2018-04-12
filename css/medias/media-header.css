@@ -4,7 +4,7 @@
 }
 
 .menu-hamburger {
-    width: 17%;
+    width: 16%;
     height: 85%;
     display: none;
 }
@@ -31,21 +31,19 @@
 }
 
 .first {
-    transform-origin: 0 50%;
+    transform-origin: 0 0;
 }
 
 .third {
-    transform-origin: 100% 50%;
+    transform-origin: 100% 100%;
 }
 
 .small-first {
-    background-color: red;
-    transform-origin: 0 50%;
+    transform-origin: 100% 100%;
 }
 
 .small-second {
-    background-color: #FFDB3D;
-    transform-origin: 100% 50%;
+    transform-origin: 0 100%;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 375px) {
@@ -63,7 +61,8 @@
         z-index: 3;
     }
     .menu-hamburger {
-        background-color: white;
+        /*border-radius: 10px;*/
+        /*background-color: white;*/
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -122,13 +121,13 @@
 
 @keyframes move-up {
     100% {
-        transform: translate(0, -20px);
+        transform: translate(0, -2.5px);
     }
 }
 
 @keyframes move-down {
     0% {
-        transform: translate(0, -20px);
+        transform: translate(0, -2.5px);
     }
     100% {
         transform: translate(0, 0);
@@ -138,7 +137,7 @@
 @keyframes rotate-left {
     100% {
         width: 40px;
-        transform: translate(3.5px, -5px) rotate(90deg);
+        transform: translate(7.5px, 0px) rotate(90deg);
 
     }
 }
@@ -146,26 +145,26 @@
 @keyframes rotate-counter-left {
     0% {
         width: 40px;
-        transform: translate(3px, -5px) rotate(90deg);
+        transform: translate(7.5px, 0px) rotate(90deg);
 
     }
     100% {
         width: 45px;
-        transform: translate(0, 0) rotate(0deg);
+        transform: translate(0 , 0) rotate(0deg);
     }
 }
 
 @keyframes rotate-right {
     100% {
         width: 40px;
-        transform: translate(-3px, 1px) rotate(90deg);
+        transform: translate(-7.7px, 1.2px) rotate(90deg);
     }
 }
 
 @keyframes rotate-counter-right {
     0% {
         width: 40px;
-        transform: translate(-3px, 1px) rotate(90deg);
+        transform: translate(-7.7px, 1.2px) rotate(90deg);
     }
     100% {
         width: 45px;
@@ -175,13 +174,13 @@
 
 @keyframes rotate-downward-right {
     100% {
-        transform: translate(6px, 0.5px) rotate(40deg);
+        transform: rotate(45deg);
     }
 }
 
 @keyframes rotate-counter-downward-right {
     0% {
-        transform: translate(6px, 1px) rotate(40deg);
+        transform: translate(0px, 0px) rotate(45deg);
     }
     100% {
         transform: translate(0, 0)rotate(0deg);
@@ -190,13 +189,13 @@
 
 @keyframes rotate-downward-left {
     100% {
-        transform: translate(-6px, 1px) rotate(-40deg);
+        transform: translate(0, 0.5px) rotate(-45deg);
     }
 }
 
 @keyframes rotate-counter-downward-left {
     0% {
-        transform: translate(-6px, 1px) rotate(-40deg);
+        transform: translate(0px, 0px) rotate(-45deg);
     }
     100% {
         transform: translate(0, 0) rotate(0deg);
