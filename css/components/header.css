@@ -65,7 +65,7 @@
 .main-nav div {
     width: 0;
     height: 3px;
-    background-color: #FFDB3D;
+    background-color: #FFD447;
     transition: all 0.3s ease-out;
 }
 
@@ -75,7 +75,7 @@
     letter-spacing: 1px;
     color: white;
     text-decoration: none;
-    text-shadow: 0.6px 0 #BABABA, 0.7px 0 black;
+    text-shadow: 1px 0 #BABABA, 1.1px 0 black;
 }
 
 .title {

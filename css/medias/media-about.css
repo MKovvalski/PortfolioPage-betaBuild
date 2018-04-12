@@ -1,6 +1,6 @@
 /*styling mobile about*/
 
-@media only screen and (min-width: 300px) and (max-width: 375px) {
+@media only screen and (min-width: 300px) and (max-width: 420px) {
     .about-wrapper {
         width: 100%;
     }
