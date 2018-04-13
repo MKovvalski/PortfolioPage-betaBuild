@@ -3,6 +3,7 @@
 .projects-wrapper {
     background-color: #FFD447;
     width: 90%;
+    max-width: 1024px;
     display: flex;
     justify-content: center;
 }

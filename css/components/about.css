@@ -1,18 +1,12 @@
 /*about styling*/
 
-.about-wrapper {
-    background-color: #39CE98;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-}
-
 .main-about {
-    height: 530px;
-    width: 100%;
+    width: 90%;
+    max-width: 1024px;
     display: flex;
     justify-content: space-between;
     position: relative;
+    border-bottom: 4px solid #39CE98;
 }
 
 .main-about:after {
@@ -25,12 +19,12 @@
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     border-top: 30px solid #39CE98;
+    z-index: 1;
 }
 
 
 .about {
     background-color: white;
-    height: 99%;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -59,27 +53,14 @@
     align-items: center;
 }
 
-.article-title {
+.section-title {
     text-transform: uppercase;
-    font-size: 21px;
     color: #333333;
-    text-shadow: 0.6px 0 #BABABA, 0.7px 0 black;
-    position: relative;
-}
-.dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #53DBA9;
-}
-
-.underline {
-    width: 130px;
-    height: 4px;
-    background-color: #FFD447;
+    text-shadow: 1px 0 #BABABA, 1.1px 0 black;
 }
 
 .short-description p {
+    text-align: center;
     margin-top: 10px;
     font-size: 19px;
     color:#595959;
@@ -88,16 +69,17 @@
 
 .main-traits {
     width: 40%;
-    height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .trait {
     width: 85%;
-    height: 30%;
+    margin-bottom: 30px;
 }
 
 .trait h3 {

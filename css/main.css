@@ -3,13 +3,6 @@
 @import "medias/media.css";
 
 /*global classes*/
-
-@media only screen and (min-width: 300px) and (max-width: 450px) {
-    .container {
-        overflow: auto;
-    }
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #cccccc;
@@ -22,4 +15,25 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.section-title {
+    margin-top: 50px;
+    width: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #333333;
+    text-shadow: 1px 0 #BABABA, 1.1px 0 black;
+    border-bottom: 4px solid #FFD447;
+}
+
+.article-title {
+    width: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #333333;
+    text-shadow: 1px 0 #BABABA, 1.1px 0 black;
+    border-bottom: 4px solid #FFD447;
 }

@@ -1,38 +1,14 @@
 /*styling skillset*/
 
-.skills-wrapper {
-    background-color: white;
-    width: 90%;
-    display: flex;
-}
-
 .main-skills {
-    height: 530px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.inner-wrapper {
-    width: 100%;
-    height: 87%;
+    width: 90%;
+    max-width: 1024px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.skill-subtitle {
-    text-transform: uppercase;
-    text-shadow: 0.7px 0 #cccccc;
-    letter-spacing: 1px;
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: 900;
-    text-align: center;
-    color: #595959;
+    position: relative;
+    background-color: white;
 }
 
 .main-skills:after {
@@ -48,56 +24,54 @@
 }
 
 .skill-list {
-    width: 50%;
-    height: 14%;
     margin-top: 10px;
     background-color: white;
     display: flex;
 }
 
 .skill-list li {
-    width: 100%;
-    height: 100%;
+    height: 60px;
+    width: 60px;
 }
 
 .html {
     background-image: url("../../imgs/HTML_Logo.png");
-    background-size: 68% 77%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .sass {
     background-image: url("../../imgs/sass-log.png");
-    background-size: 70% 70%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .js {
     background-image: url("../../imgs/js-logo.png");
-    background-size: 50% 82%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .react {
     background-image: url("../../imgs/react-log.png");
-    background-size: 71% 79%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .redux {
     background-image: url("../../imgs/redux-logo.png");
-    background-size: 90% 90%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .webpack {
     background-image: url("../../imgs/webpack.png");
-    background-size: 72% 72%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -111,12 +85,12 @@
 
 .main-skill-text {
     text-align: center;
-    height: 60%;
-    width: 50%;
+    width: 45%;
 }
 
 .main-skill-text p {
-    margin-top: 14px;
+    margin-top: 10px;
+    margin-bottom: 40px;
     color: #595959;
 }
 
