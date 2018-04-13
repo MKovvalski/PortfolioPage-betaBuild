@@ -36,49 +36,49 @@
 
 .html {
     background-image: url("../../imgs/HTML_Logo.png");
-    background-size: 100% 100%;
+    background-size: 80% 80%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .sass {
     background-image: url("../../imgs/sass-log.png");
-    background-size: 100% 100%;
+    background-size: 65% 65%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .js {
     background-image: url("../../imgs/js-logo.png");
-    background-size: 100% 100%;
+    background-size: 54% 83%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .react {
     background-image: url("../../imgs/react-log.png");
-    background-size: 100% 100%;
+    background-size: 80% 80%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .redux {
     background-image: url("../../imgs/redux-logo.png");
-    background-size: 100% 100%;
+    background-size: 110% 99%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .webpack {
     background-image: url("../../imgs/webpack.png");
-    background-size: 100% 100%;
+    background-size: 72% 80%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .git {
     background-image: url("../../imgs/git.png");
-    background-size: 65% 65%;
+    background-size: 75% 75%;
     background-repeat: no-repeat;
     background-position: center;
 }

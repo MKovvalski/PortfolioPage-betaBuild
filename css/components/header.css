@@ -1,16 +1,9 @@
 /*header styling*/
 
-.header-wrapper {
+.main-header {
     background-color: #39CE98;
     width: 90%;
     max-width: 1024px;
-    display: flex;
-    justify-content: center;
-}
-
-.main-header {
-    height: 150px;
-    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,25 +24,12 @@
 
 }
 
-.symbol-and-title {
-    display: flex;
-}
-
-.symbol {
-    width: 40px;
-    height: 40px;
-}
-
-.small-logo {
-    font-weight: 900;
-    font-size: 23px;
-}
-
 .main-nav {
-    width: 38%;
+    width: 43%;
 }
 
 .main-nav ul {
+    margin-right: 25px;
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
@@ -71,7 +51,7 @@
 }
 
 .main-nav ul li h3 {
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 700;
     letter-spacing: 1px;
     color: white;
@@ -80,11 +60,12 @@
 }
 
 .title {
+    margin: 25px 0 25px 20px;
     text-transform: uppercase;
 }
 
 .title h1 {
-    font-size: 23px;
+    font-size: 1.5em;
     font-weight: 900;
     letter-spacing: 2px;
     color: #595959;
@@ -92,7 +73,7 @@
 }
 
 .title h2 {
-    font-size: 17px;
+    font-size: 1.2em;
     font-weight: 600;
     letter-spacing: 0.8px;
     color: white;
