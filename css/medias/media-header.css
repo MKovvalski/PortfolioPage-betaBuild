@@ -4,6 +4,7 @@
 }
 
 .menu-hamburger {
+    margin-right: 10px;
     width: 54px;
     height: 51px;
     display: none;
@@ -47,12 +48,8 @@
 }
 
 @media only screen and (min-width: 300px) and (max-width: 450px) {
-    .header-wrapper {
-        width: 100%;
-        height: 60px;
-    }
     .main-header {
-        width: 95%;
+        width: 100%;
         height: 100%;
     }
     .main-header:after {
@@ -68,6 +65,9 @@
     }
     .main-nav {
         display: none;
+    }
+    .title {
+        margin: 10px 0 10px 5px;
     }
     .title h1 {
         font-size: 19px;

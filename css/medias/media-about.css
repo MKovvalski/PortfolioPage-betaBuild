@@ -1,23 +1,18 @@
 /*styling mobile about*/
 
 @media only screen and (min-width: 300px) and (max-width: 450px) {
-    .about-wrapper {
+    .main-about {
         width: 100%;
     }
-    .main-about {
-        height: 90%;
-        margin-bottom: 5px;
-    }
     .main-about:after {
-        right: 42%;
+        right: 42.5%;
         top: 100%;
     }
     .about {
-        height: 98%;
         flex-direction: column;
     }
     .about:after {
-        right: 42.7%;
+        right: 43%;
         top: 99.5%;
     }
     .short-description {
@@ -30,7 +25,11 @@
     }
     .main-traits {
         width: 95%;
-        margin-bottom: 15px;
+        margin: 10px 0 10px 0;
+    }
+    .trait {
+        margin-bottom: 10px;
+        width: 100%;
     }
     .trait h3 {
         font-size: 20px;

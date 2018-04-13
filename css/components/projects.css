@@ -1,7 +1,7 @@
 /*styling proejcts*/
 
 .main-projects {
-    width: 100%;
+    width: 90%;
     max-width: 1024px;
     background-color: #FFD447;
     display: flex;
@@ -62,9 +62,9 @@
 }
 
 .project p {
-    margin: 12px 0px 40px 10px;
+    margin-left: 10px;
+    height: 115px;
     width: 80%;
-    height: 80px;
     color: #595959;
     font-size: 15px;
 }

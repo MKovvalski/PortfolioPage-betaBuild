@@ -1,27 +1,28 @@
 /*styling mobile skills*/
 
 @media only screen and (min-width: 300px) and (max-width: 450px) {
-    .skills-wrapper {
-        width: 100%;
-    }
     .main-skills {
-        height: 100%;
+        width: 100%;
     }
     .main-skills:after {
         top: 100%;
-        right: 42%;
+        right: 42.5%;
     }
     .inner-wrapper {
         margin-top: 40px;
         height: 100%;
     }
-    .skill-list {
-        width: 98%;
-        height: 45px;
+    .skill-list li {
+        width: 50px;
+        height: 50px;
     }
+
     .main-skill-text {
-        width: 90%;
+        width: 95%;
         font-size: 19px;
+        margin-bottom: 15px;
+    }
+    .main-skill-text p {
         margin-bottom: 15px;
     }
     .article-title {
