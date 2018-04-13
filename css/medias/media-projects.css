@@ -1,12 +1,8 @@
 /*styling mobile projects*/
 
 @media only screen and (min-width: 300px) and (max-width: 450px) {
-    .projects-wrapper {
-        width: 100%;
-    }
     .main-projects {
-        height: 100%;
-        margin-top: 40px;
+        width: 100%;
         flex-direction: column;
     }
     .main-projects:after {
@@ -14,9 +10,7 @@
         right: 42%;
     }
     .project {
-        height: 100%;
-        width: 85%;
-        margin-bottom: 15px;
+        width: 80%;
     }
     .project h3 {
         font-size: 22px;

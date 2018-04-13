@@ -21,6 +21,7 @@
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     border-top: 30px solid white;
+    z-index: 1;
 }
 
 .skill-list {
